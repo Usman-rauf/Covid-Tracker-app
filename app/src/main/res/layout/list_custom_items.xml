@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/searchimage"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_55sdp" />
+
+    <TextView
+        android:id="@+id/searchcountryname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_23sdp"
+        android:textStyle="bold"
+        android:text="Country Name"
+    android:layout_marginLeft="@dimen/_15sdp"/>
+
+</LinearLayout>
